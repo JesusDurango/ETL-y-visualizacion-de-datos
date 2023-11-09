@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Lee los datos procesados
-df = pd.read_csv('datos_usables.csv')
+df = pd.read_csv('datos_procesados.csv')
 
 plt.figure(figsize=(10,6))
 plt.hist(df['age'], bins=20, color='skyblue')
@@ -26,7 +26,7 @@ print(valores_hombres)
 print(valores_mujeres)
 
 # Configurar el gráfico de barras
-etiquetas = ['Anemia', 'Diabetes', 'Fumador', 'Muertos']
+etiquetas = ['Anemicos', 'Diabeticos', 'Fumadores', 'Muertos']
 x = np.arange(len(etiquetas))
 ancho = 0.35
 
