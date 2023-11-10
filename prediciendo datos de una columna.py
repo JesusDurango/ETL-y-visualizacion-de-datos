@@ -26,4 +26,4 @@ print(resultados)
 
 # Calcular el error cuadrático medio
 mse = mean_squared_error(y_test, y_pred)
-print(f"Error cuadrático medio: {mse}")
+print(f"Error cuadrático medio: {mse}") 
